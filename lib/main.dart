@@ -47,10 +47,11 @@ class _DiceState extends State<DiceRoller> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage(
-                "assets/background/dicebackground3.jpg",
-              ),
-              fit: BoxFit.fill),
+            image: AssetImage(
+              "assets/background/dicebackground3.jpg",
+            ),
+            fit: BoxFit.fill,
+          ),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -58,7 +59,7 @@ class _DiceState extends State<DiceRoller> {
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(
-                  Constants.ColumnElementsPadding,
+                  Constants.columnElementsPadding,
                 ),
                 child: Image.asset(
                   'assets/dice/dice$diceNumber.png',

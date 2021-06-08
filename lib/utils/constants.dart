@@ -7,7 +7,7 @@ abstract class Constants {
   static const double buttonThemeHeight = 50.0;
   static const double playButtonFontSize = 25.0;
   static const double playButtonLetterSpacing = 1.0;
-  static const double ColumnElementsPadding = 60.0;
+  static const double columnElementsPadding = 60.0;
   static const double diceWidth = 300.0;
   static const double buttonBottomPadding = 80.0;
 }
